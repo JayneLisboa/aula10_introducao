@@ -1,0 +1,14 @@
+.carrinho{
+    font-size: 20px;
+    margin: 20px;
+}
+
+
+.produto{
+    border: 10px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    width: 200px;
+
+}
