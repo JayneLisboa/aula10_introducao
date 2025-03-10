@@ -2,7 +2,7 @@
 import { useState } from "react";
 import "./home.css"
 
-// Testando um teste com uma testada 
+
 
 export default function Home() {
     let [carrinho, alteraCarrinho] = useState (0)
