@@ -26,6 +26,11 @@ function painel() {
             alteraMostraErro (true) 
             alteraMostraAcerto(false)
         }
+
+        if(usuario == "" && senha == ""){
+            alteraMostraAcerto(false)
+            alteraMostraErro(false)
+        }
       
     }
     return (  
@@ -38,7 +43,7 @@ function painel() {
                     
                     Digite o usuário:
                     
-                    <input onChange={ (e)=> alteraUsuario (e.target.value)}/>
+                    <input required onChange={ (e)=> alteraUsuario (e.target.value)}/>
 
                 </label>
     

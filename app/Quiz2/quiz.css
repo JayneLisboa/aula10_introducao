@@ -1,0 +1,20 @@
+.selecionado{
+    color: rgba(174, 0, 255, 0.452);
+    border: 1px solid gray;
+    padding: 10px;
+    width: 200px;
+}
+h1{
+    background-color: pink;
+    border: 1px solid rgb(221, 23, 56);
+    padding: 20px;
+}
+
+body{
+    background-color: rgba(255, 192, 203, 0.205);
+}
+
+.enunciado{
+    color: rgb(221, 23, 56);
+    font-size: 20px;
+}
