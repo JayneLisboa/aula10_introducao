@@ -1,3 +1,64 @@
 .divisao{
     display: flex;
+    padding: 10px;
+    margin: 8px;
+    justify-content: center;
+    gap: 60px;
+}
+.divisao p{
+
+    font-size: 25px;
+    border: 1px solid black;
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.divisao p:hover{
+    background-color: rgba(73, 99, 205, 0.869);
+    color: white
+}
+
+
+img{
+
+    margin: auto;
+    display: block;
+    width: 450px;
+    height: 300px;
+    border: 1px solid black;
+
+}
+.titulo{
+
+    text-align: center;
+    font-size: 30px;
+    
+
+}
+h1{
+    text-align: center;
+    margin-bottom: 120px;
+    margin-top: 50px;
+    background-color: rgba(20, 20, 211, 0.801);
+    padding: 20px;
+    color: white;
+}
+
+body{
+
+    background-color: rgba(18, 87, 226, 0.331);
+}
+
+.resposta{
+    font-size: 100px;
+    text-align: center;
+    margin-top: 300px;
 }
